@@ -38,5 +38,5 @@ If you have any questions, suggestions, or issues, feel free to open an **issue*
 
 ---
 
-[Author's Name]  
-[your-username.github.com](https://github.com/your-username)
+[Onyx3241]  
+(https://github.com/Onyx3241)
