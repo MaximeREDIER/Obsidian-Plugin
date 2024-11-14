@@ -1,0 +1,14 @@
+{
+  "name": "new-note-location",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npx tsc --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "obsidian": "^0.15.9",
+    "typescript": "^5.0.0"
+  }
+}

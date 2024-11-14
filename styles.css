@@ -1,0 +1,29 @@
+.folder-tree {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+
+.folder-list {
+    margin-left: 20px;
+}
+
+.folder {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.folder-arrow {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.subfolder-list {
+    display: none; /* Caché par défaut */
+    margin-left: 20px;
+}
+
+.hidden {
+    display: none; /* Cache les sous-dossiers */
+}

@@ -1,0 +1,10 @@
+{
+  "id": "new-note-location",
+  "name": "New Note Location",
+  "version": "1.0.0",
+  "description": "A plugin to create notes in a chosen folder.",
+  "author": "Onyx3241",
+  "main": "main.js",
+  "minAppVersion": "0.15.0",
+  "isDesktopOnly": false
+}
