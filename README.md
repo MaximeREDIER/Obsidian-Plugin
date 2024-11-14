@@ -1,5 +1,7 @@
 # New Note Location Plugin for Obsidian
 
+
+
 ## Description
 
 The **New Note Location** plugin for Obsidian allows you to create notes in specific folders when creating them. You can easily choose where to store your new note with a folder tree interface.
@@ -34,6 +36,9 @@ This plugin is licensed under [CC BY-NC 4.0](https://creativecommons.org/license
 
 Contributions are welcome! If you would like to improve the plugin, feel free to fork the repository, create a branch, and submit a **Pull Request**. Please make sure to respect the CC BY-NC 4.0 license.
 
+## Future goals : 
+- Rewrite the code to make it viable for integration into Obsidian Community Plugins
+- 
 ## Contact
 
 If you have any questions, suggestions, or issues, feel free to open an **issue** on GitHub or contact me directly on Discord (onyx3241) or mail (new.note.location.obsidian@gmail.com). 

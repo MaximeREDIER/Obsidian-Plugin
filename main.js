@@ -133,7 +133,7 @@ class NewNoteLocationPlugin extends obsidian_1.Plugin {
             const leaf = this.app.workspace.activeLeaf;
             if (leaf) {
                 yield leaf.openFile(newFile); // Usage of activeLeaf's openFile
-                new obsidian_1.Notice(`Note créée et ouverte : ${newFile.path}`);
+                new obsidian_1.Notice(`Note created and open : ${newFile.path}`);
             }
         });
     }

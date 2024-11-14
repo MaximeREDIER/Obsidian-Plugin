@@ -114,7 +114,7 @@ export default class NewNoteLocationPlugin extends Plugin {
         const leaf = this.app.workspace.activeLeaf;
         if (leaf) {
             await leaf.openFile(newFile); // Usage of activeLeaf's openFile
-            new Notice(`Note créée et ouverte : ${newFile.path}`);
+            new Notice(`Note created and open : ${newFile.path}`);
         }
     }
 }
