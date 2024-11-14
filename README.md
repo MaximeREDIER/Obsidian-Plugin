@@ -38,7 +38,7 @@ Contributions are welcome! If you would like to improve the plugin, feel free to
 
 If you have any questions, suggestions, or issues, feel free to open an **issue** on GitHub or contact me directly on :
 Discord : onyx3241
-mail : 
+mail : new.note.location.obsidian@gmail.com 
 
 ---
 
