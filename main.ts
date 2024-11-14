@@ -16,7 +16,7 @@ class FolderPickerModal extends Modal {
         // Obtain the folder tree
         const folderTree = this.plugin.getFolderTree();
         
-        // Afficher l'arborescence à partir de la racine
+        // Display the folder tree from the root
         this.renderFolderTree(folderTree, contentEl);
     }
 
@@ -39,11 +39,15 @@ class FolderPickerModal extends Modal {
             folderButton.addEventListener('click', () => {
                 // If the folder contains subfolders, display them
                 if (Object.keys(tree[folderName]).length > 0) {
-                    // Empty the current content and display the subfolders
                     parentEl.empty();
+                    const selectFolderButton = parentEl.createEl('button', { text: `Select this folder` });
+                    selectFolderButton.style.display = 'block';
+                    selectFolderButton.style.marginBottom = '5px';
+                    selectFolderButton.addEventListener('click', () => this.selectFolder(folderPath));
+
                     this.renderFolderTree(tree[folderName], parentEl, folderPath);
                 } else {
-                    // Create the note in the selected folder
+                    // Directly create the note if no subfolders
                     this.selectFolder(folderPath);
                 }
             });
@@ -105,16 +109,17 @@ export default class NewNoteLocationPlugin extends Plugin {
         }
 
         // Create the new note
-        const newFile = await this.app.vault.create(newFilePath, "# Nouvelle Note");
+        const newFile = await this.app.vault.create(newFilePath, "# New Note");
         return newFile;
     }
 
-    // New method to open the note after creation
+    // New method to open the note after creation in the main content area
     async openNewNote(newFile: TFile) {
-        const leaf = this.app.workspace.activeLeaf;
-        if (leaf) {
-            await leaf.openFile(newFile); // Usage of activeLeaf's openFile
-            new Notice(`Note created and open : ${newFile.path}`);
+        // Find the first non-sidebar leaf, so it opens in the main content area
+        const mainLeaf = this.app.workspace.getLeaf(false);
+        if (mainLeaf) {
+            await mainLeaf.openFile(newFile); // Open in the primary note area
+            new Notice(`Note created and opened: ${newFile.path}`);
         }
     }
 }
