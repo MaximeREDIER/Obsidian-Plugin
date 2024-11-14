@@ -25,7 +25,7 @@ After enabling the plugin, you can create a new note in a specific folder by fol
 3. A window will appear with a list of folders. Click on a folder to create your note there.
 
 Use via hotkeys : 
-In the hotkeys sections of the paramaters search for "Create
+In the hotkeys sections of the paramaters search for "New Note Location: Create note in a chosen folder". And then add the hotkey of your choice. There is no hotkeys attributed by default.
 ## License
 
 This plugin is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/), which means you can use and modify it for non-commercial purposes, but you cannot sell it or use it commercially.
