@@ -11,7 +11,7 @@ class FolderPickerModal extends Modal {
 
     onOpen() {
         const { contentEl } = this;
-        contentEl.createEl('h2', { text: 'Choose a file' });
+        contentEl.createEl('h2', { text: 'Choose a folder' });
 
         // Obtain the folder tree
         const folderTree = this.plugin.getFolderTree();
