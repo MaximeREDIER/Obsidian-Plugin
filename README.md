@@ -3,7 +3,7 @@
 ## Description
 
 The **New Note Location** plugin for Obsidian allows you to create notes in specific folders when creating them. You can easily choose where to store your new note with a folder tree interface.
-
+Attention : This plugin has mainly been created by using Chat GPT, wich means it can contain some errors or unusual code as i'm completly new to obsidian plugin development.
 ### Features:
 - Select a folder from a tree structure to create a new note.
 - Create subfolders if needed.
@@ -14,6 +14,8 @@ The **New Note Location** plugin for Obsidian allows you to create notes in spec
 1. Download and install the plugin via the **Obsidian Plugin Store**.
 2. Once installed, go to **Settings > Community Plugins** and enable **New Note Location**.
 
+Alternate Instalation : 
+Copy all the files in a new folder in the 'plugins' folder in the '.obsidian' folder of your volt
 ## Usage
 
 After enabling the plugin, you can create a new note in a specific folder by following these steps:
@@ -34,7 +36,9 @@ Contributions are welcome! If you would like to improve the plugin, feel free to
 
 ## Contact
 
-If you have any questions, suggestions, or issues, feel free to open an **issue** on GitHub or contact me directly at [your email or website].
+If you have any questions, suggestions, or issues, feel free to open an **issue** on GitHub or contact me directly on :
+Discord : onyx3241
+mail : 
 
 ---
 
