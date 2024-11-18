@@ -1,4 +1,4 @@
-# New Note Location Plugin for Obsidian
+# Plugin Dossier Cible Note
 
 ## Description
 
