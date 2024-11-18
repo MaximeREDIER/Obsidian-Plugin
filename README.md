@@ -14,7 +14,7 @@ Il est prévu que je mette prochainement a jours le code pour le rendre conforme
 - **Comportement amélioré** : Les nouvelles notes s'ouvrent dans la zone principale de contenu, sans remplacer l'explorateur de fichiers.
 <div align="center">
   <img src="https://github.com/MaximeREDIER/Obsidian-Plugin/raw/main/plugin_screenshot.png" alt="Capture d'écran du plugin de l'UI du plugin" width="400" />
-  <p>Voici à quoi ressemble l'interface du plugin dans Obsidian. Vous pouvez voir comment la fonctionnalité s'intègre dans l'environnement d'Obsidian et aide à mieux gérer vos fichiers.</p>
+  <p> Visuel de la fenêtre de choix du dossier cible de la nouvelle note.</p>
 </div>
 
 ## Installation
