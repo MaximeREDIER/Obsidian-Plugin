@@ -13,6 +13,8 @@ Il est prévu que je mette prochainement a jours le code pour le rendre conforme
 - **Sélection du dossier actuel** : L'option de choisir le dossier actuel lors de la création d'une note est maintenant disponible.
 - **Comportement amélioré** : Les nouvelles notes s'ouvrent dans la zone principale de contenu, sans remplacer l'explorateur de fichiers.
 ![Capture d'écran du plugin](https://github.com/MaximeREDIER/Obsidian-Plugin/raw/main/plugin_screenshot.png)
+<img src="https://github.com/MaximeREDIER/Obsidian-Plugin/raw/main/plugin_screenshot.png" alt="Capture d'écran du plugin" width="600" height="400" />
+
 ## Installation
 
 1. Téléchargez et installez le plugin en le copiant dans le dossier `plugins` de votre installation Obsidian.
