@@ -12,7 +12,7 @@ Il est prévu que je mette prochainement a jours le code pour le rendre conforme
 - **Choisir l'emplacement du fichier** : Sélectionnez facilement l'emplacement du fichier lorsque vous créez une nouvelle note.
 - **Sélection du dossier actuel** : L'option de choisir le dossier actuel lors de la création d'une note est maintenant disponible.
 - **Comportement amélioré** : Les nouvelles notes s'ouvrent dans la zone principale de contenu, sans remplacer l'explorateur de fichiers.
-<img src="https://github.com/MaximeREDIER/Obsidian-Plugin/raw/main/plugin_screenshot.png" alt="Capture d'écran du plugin" width="600" height="400" />
+<img src="https://github.com/MaximeREDIER/Obsidian-Plugin/raw/main/plugin_screenshot.png" alt="Capture d'écran du plugin" width="600" height="600" />
 
 ## Installation
 
