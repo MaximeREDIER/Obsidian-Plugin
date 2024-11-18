@@ -34,6 +34,12 @@ Il est prévu que je mette prochainement a jours le code pour le rendre conforme
 
 - Lors de la navigation dans l'explorateur de fichiers, si vous cliquez dans la barre de recherche de fichiers et appuyez sur `Ctrl+N`, la nouvelle note s'ouvre dans la section de recherche de fichiers. Cela peut rendre la recherche inaccessible jusqu'à ce qu'Obsidian soit redémarré.
 
+## Dev Roadmap
+- Résoudre le problème d'interaction avec l'explorateur de fichier
+- Rajouter possiblité de retourner sur dossier précédent lors de la sélection
+- Créer fonction de recherche de dossier par clavier similaire a fonction native : `Ctrl+o`
+- Améliorer code pour respecter les standards d'Obsidian et rendre disponible le plugin dans l'outil de recherche communautaire.
+
 ## Contribution
 
 Si vous souhaitez contribuer au développement de ce plugin, n'hésitez pas à ouvrir des issues ou des pull requests. Toutes les contributions sont les bienvenues !
