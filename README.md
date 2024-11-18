@@ -2,9 +2,9 @@
 
 ## Description
 
-Le plugin **New Note Location** pour Obsidian permet aux utilisateurs de choisir facilement l'emplacement d'un nouveau fichier lorsqu'ils créent une nouvelle note. Ce plugin améliore l'expérience d'Obsidian en permettant une gestion plus flexible des fichiers dans votre vault. 
-Il vous permet de sélectionner un dossier spécifique dans lequel enregistrer vos nouvelles notes.
-Ce plugin a été principalement réalisé par des interactions avec l'IA ChatGPT, d'oû le fait que le code ne respecte pas les standards officiels de Obsidian.
+- Le plugin **New Note Location** pour Obsidian permet aux utilisateurs de choisir facilement l'emplacement d'un nouveau fichier lorsqu'ils créent une nouvelle note. Ce plugin améliore l'expérience d'Obsidian en permettant une gestion plus flexible des fichiers dans votre vault. 
+- Il vous permet de sélectionner un dossier spécifique dans lequel enregistrer vos nouvelles notes.
+- Ce plugin a été principalement réalisé par des interactions avec l'IA ChatGPT, d'oû le fait que le code ne respecte pas les standards officiels de Obsidian.
 Il est prévu que je mette prochainement a jours le code pour le rendre conforme a ces standards et donc éligible à un partage par Obsidian.
 
 ## Fonctionnalités
