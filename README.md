@@ -28,7 +28,11 @@ Il est prévu que je mette prochainement a jours le code pour le rendre conforme
 
 - Pour utiliser le plugin, il suffit de créer une nouvelle note comme d'habitude.
 - Lorsque vous appuyez sur `Ctrl+N` (ou `Cmd+N` sur Mac), vous aurez l'option de choisir l'emplacement de votre nouvelle note.
-
+- Cliquez dans le dossier de votre choix, ensuite vous avez 3 options :
+  - Choisir le dossier actuel en cliquant sur le bouton `Choose current folder`
+  - Choisir un autre dossier en cliquant sur celui-ci
+  - Revenir au dossier précédant dans l'arbre de choix, en cliquant sur le bouton `Back`
+- Fonctionalité de recherche : dans la barre de recherche tapez le nom du dossier cible, puis cliquez sur celui-ci.
 ## Problèmes connus
 
 - Lors de la navigation dans l'explorateur de fichiers, si vous cliquez dans la barre de recherche de fichiers et appuyez sur `Ctrl+N`, la nouvelle note s'ouvre dans la section de recherche de fichiers. Cela peut rendre la recherche inaccessible jusqu'à ce qu'Obsidian soit redémarré.
